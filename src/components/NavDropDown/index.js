@@ -13,7 +13,7 @@ const NavDropDown = (props) => {
         </DropDownIcon>
         <DropDownTextContainer>
           <DropDownItemTitle>Phone</DropDownItemTitle>
-          <DropDownItemDesc>Track andshare insights from ML projects</DropDownItemDesc>
+          <DropDownItemDesc>Let's get together and have a chat?'</DropDownItemDesc>
         </DropDownTextContainer>
       </DropDownItem>
       <DropDownItem href="#" target="_blank" rel="noreferrer">
@@ -22,7 +22,7 @@ const NavDropDown = (props) => {
         </DropDownIcon>
         <DropDownTextContainer>
           <DropDownItemTitle>Email</DropDownItemTitle>
-          <DropDownItemDesc>Open-source version control system for ML projects</DropDownItemDesc>
+          <DropDownItemDesc>If you want to talk jus send a message and I'll get back</DropDownItemDesc>
         </DropDownTextContainer>
       </DropDownItem>
       <DropDownItem href="#" target="_blank" rel="noreferrer">
@@ -32,7 +32,7 @@ const NavDropDown = (props) => {
         </DropDownIcon>
         <DropDownTextContainer>
           <DropDownItemTitle>Address</DropDownItemTitle>
-          <DropDownItemDesc>Open_source CI?CD for ML projects</DropDownItemDesc>
+          <DropDownItemDesc>1405, Angelus Dr, Florissant. Mo</DropDownItemDesc>
         </DropDownTextContainer>
       </DropDownItem>
     </DropDownContainer>
