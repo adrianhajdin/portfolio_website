@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  display: flex;
+  display: ${(props) => props.flex ? "row" : "column" };
   flex-direction: column;
-  width: calc(100vw - 96px);
   padding: 32px 48px 0;
   margin: 0 auto;
   max-width: 1040px;
@@ -23,7 +22,7 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '72px' : '56px'};
+  font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
@@ -56,7 +55,7 @@ export const SectionText = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 32px;
+  padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
