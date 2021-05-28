@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import {
   Section,
@@ -7,12 +6,12 @@ import {
   SectionTitle
 } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, RightSection } from './HeroStyles';
+import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => {
   return (
     <>
-      <Section row>
+      <Section row nopadding>
         <LeftSection>
           <SectionTitle main center>
             Welcome To <br />
@@ -25,15 +24,7 @@ const Hero = (props) => {
           </SectionText>
           <Button onClick={props.handleClick}>Learn More</Button>
         </LeftSection>
-        <RightSection>
-          <Image
-            src="/images/profile.jpeg"
-            alt="this is my profile"
-            width="500"
-            height="600"
-            layout="intrinsic"
-          />
-        </RightSection>
+      
       </Section>
     </>
   );

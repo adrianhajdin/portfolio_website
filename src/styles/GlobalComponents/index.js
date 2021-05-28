@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  display: flex;
+  display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
@@ -9,6 +9,7 @@ export const Section = styled.section`
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
+  grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
