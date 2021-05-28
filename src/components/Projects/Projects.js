@@ -21,7 +21,7 @@ import {
 
 const Projects = () => {
   return (
-    <Section nopadding>
+    <Section nopadding id="projects">
       <SectionDivider />
       <SectionTitle main>Projects</SectionTitle>
       <GridContainer>
