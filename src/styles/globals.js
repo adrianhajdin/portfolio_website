@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'styled-normalize';
 
-
 const GlobalStyles = createGlobalStyle`
   ${normalize};
 
@@ -12,6 +11,8 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
+
   }
   body {
     font-family: ${props => props.theme.fonts.main};

@@ -1,22 +1,26 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  display: ${(props) => props.flex ? "row" : "column" };
-  flex-direction: column;
-  padding: 32px 48px 0;
+  display: ${(props) => props.grid ? "grid" : "flex" };
+  flex-direction: ${(props) => props.row ? "row" : "column" };
+  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
+  grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
+    flex-direction: column;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 16px 16px 0;
+    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+
     width: calc(100vw - 32px);
+    flex-direction: column;
   }
 `
 
@@ -73,6 +77,7 @@ export const SectionText = styled.p`
 `
 
 export const SectionDivider = styled.div`
+
   width: 64px;
   height: 6px;
   border-radius: 10px;
@@ -80,6 +85,8 @@ export const SectionDivider = styled.div`
   background: ${(props) => props.colorAlt ? 
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+
+    margin: ${(props) => props.divider ? "4rem 0" : "" };
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
@@ -124,7 +131,6 @@ export const SecondaryBtn = styled.button`
   margin-bottom: 80px;
   cursor: pointer;
   transition: 0.4s ease;
-  
   &:focus {
     outline: none;
   }
