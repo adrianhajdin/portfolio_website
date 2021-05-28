@@ -40,25 +40,11 @@ export const projects = [
     id: 3,
   },
 ];
+
 export const TimeLineData = [
-  {
-    year: 2017,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-  },
-  {
-    year: 2018,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-  },
-  {
-    year: 2019,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-  },
-  {
-    year: 2020,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-  },
-  {
-    year: 2021,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-  },
+  { year: 2017, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', },
+  { year: 2018, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', },
+  { year: 2019, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', },
+  { year: 2020, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', },
+  { year: 2021, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', },
 ];
