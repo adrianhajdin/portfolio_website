@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
-export  const GridContainer = styled.section`
+export const Img = styled.img`
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+`
+
+export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
