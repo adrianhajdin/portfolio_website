@@ -102,8 +102,8 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
-display: flex;
-justify-content: space-around;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
 padding: 2rem;
 `
 export const Tag = styled.li`
