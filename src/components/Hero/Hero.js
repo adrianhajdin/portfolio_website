@@ -1,12 +1,11 @@
 import React from 'react';
-
 import {
   Section,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+
 
 const Hero = (props) => (
   <>
@@ -20,7 +19,6 @@ const Hero = (props) => (
           experience in development, deployment and testing of modern web and
           mobile applications
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
   </>
