@@ -19,11 +19,14 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience with <br />
+            React.js <br/>
+            Next.js <br/>
+            Angular.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      <ListItem></ListItem>
       <ListItem>
         <picture>
           <DiFirebase size="3rem" />
@@ -32,22 +35,14 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node  <br/>
+            Mongo DB <br/>
+            PostgreSQL <br/>
+            Firebase 
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+      
     </List>
     <SectionDivider colorAlt />
   </Section>
