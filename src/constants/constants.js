@@ -44,5 +44,5 @@ export const TimeLineData = [
   { year: 2018, text: 'Started My Journey' },
   { year: 2019, text: 'Created freelance projects for clients' },
   { year: 2020, text: 'Worked as junior developer' },
-  { year: 2021, text: 'Became Top Rated Freelancer on Upwork' },
+  { year: 2021, text: 'Became Successful Freelancer on Upwork' },
 ];
