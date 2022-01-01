@@ -1,4 +1,3 @@
-export async function onRequestPost(request) {
-    // ...
+export const onRequest = () => {
     return new Response(`Hello world`);
   }
