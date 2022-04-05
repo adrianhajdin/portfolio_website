@@ -17,6 +17,10 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+  font-size: 2rem;
+`;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
