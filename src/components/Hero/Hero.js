@@ -18,7 +18,7 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-          The purpose of {site} is to bring valuable design and development practices to assist with modern business problems.
+          The purpose of {site} is to showcase valuable design and development practices to assist with modern business problems.
           Let's take your project to the next level and build something awesome.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
