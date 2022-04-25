@@ -20,7 +20,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world. From
-      Design Tools Like Figma, Zeplin, E-commerce like Shopify or Squarespace. Custom Code solutions with Javascript
+      Design Tools Like Figma, Zeplin, E-commerce like Shopify or Squarespace. Frontend custom code solutions with HTML, CSS, and Javascript
     </SectionText>
     <List>
       <ListItem>
@@ -31,6 +31,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
+            HTML CSS
             React.js
           </ListParagraph>
         </ListContainer>
@@ -43,7 +44,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node and SQL Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
