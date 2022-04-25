@@ -39,15 +39,15 @@ export const projects = [
     visit: "https://google.com",
     id: 3,
   },
- /* {
-    title:" ",
-    description:" ",
-    image:"/images/M.jpg",
+ {
+    title:" Disney Clone",
+    description:"This Code repository is for the clone series tutorial. In this video, we create a full Realtime Disney Plus clone ",
+    image:"/images/D.jpg",
     tags:["Figma", "Design","Prototype"],
-    source:" ",
-    visit:" ",
+    source:"https://disneyplus-clone-f8077.web.app/ ",
+    visit:" https://disneyplus-clone-f8077.web.app/",
     id:4,
-  } */
+  } 
 ]; 
 
 export const TimeLineData = [
