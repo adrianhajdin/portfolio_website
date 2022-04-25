@@ -20,7 +20,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      Design Tools Like Figma, Zeplin, E-commerce like Shopify or Squarespace. Custom Code solutions with Javascript
     </SectionText>
     <List>
       <ListItem>
