@@ -8,7 +8,7 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
-let site = "HolderDesigns.dev";
+let site = "HolderDesigns";
 const Hero = (props) => (
   <>
     <Section row nopadding>
@@ -18,9 +18,8 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-          The purpose of {site} is to help aspiring and established developers
-          to take their development skills to the next level and build awesome
-          apps.
+          The purpose of {site} is to valuable design and development practices to assist with modern business problems.
+          Let's take your project to the next level and build something awesome.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
