@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Gogig Marketing Website',
     description: 'GoGig\'s anonymous platform allows you to safely advance your career without jeopardizing your current job. Sign up to GoGig for free in as little as 2 minutes',
-    image: '/images/gogig/02.jpg',
+    image: '/images/gogig.jpg',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://www.gogig.com',
     visit: 'https://www.gogig.com',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Online Gaming Platform',
     description: 'The best bonuses and slots just for you and thanks to HyCasino’s expertise, You can try our wide range of free slots and get our expert opinion on games from top providers such as Pragmatic Play and Play’n Go.',
-    image: '/images/hycasino/03.jpg',
+    image: '/images/hycasino.jpg',
     tags: ['Next.js', 'Graphql', 'Apollo', 'Nest.js'],
     source: 'https://www.hycasino.com',
     visit: 'https://www.hycasino.com',
