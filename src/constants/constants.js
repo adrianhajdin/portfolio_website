@@ -1,5 +1,24 @@
 export const projects = [
   {
+    title: 'Gogig Marketing Website',
+    description: 'GoGig\'s anonymous platform allows you to safely advance your career without jeopardizing your current job. Sign up to GoGig for free in as little as 2 minutes',
+    image: '/images/gogig/02.jpg',
+    tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: 'https://www.gogig.com',
+    visit: 'https://www.gogig.com',
+    id: 0,
+  },
+  {
+    title: 'Online Gaming Platform',
+    description: 'The best bonuses and slots just for you and thanks to HyCasino’s expertise, You can try our wide range of free slots and get our expert opinion on games from top providers such as Pragmatic Play and Play’n Go.',
+    image: '/images/hycasino/03.jpg',
+    tags: ['Next.js', 'Graphql', 'Apollo', 'Nest.js'],
+    source: 'https://www.hycasino.com',
+    visit: 'https://www.hycasino.com',
+    id: 1,
+  },
+
+  {
     title: 'E-Taqreeb',
     description:
       'E-Taqreeb is a online booking MERN application which solves the problem of arrangement of small and big events',
@@ -7,7 +26,7 @@ export const projects = [
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Spider Web Dashboard',
@@ -26,7 +45,7 @@ export const projects = [
     tags: ['React-Native', 'JavaScript', 'Android'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 1,
+    id: 4,
   },
   {
     title: 'Construct To App',
@@ -36,13 +55,13 @@ export const projects = [
     tags: ['React-Native', 'Mongo DB', 'Node JS'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 2,
+    id: 5,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: 'Started My Journey' },
   { year: 2019, text: 'Created freelance projects for clients' },
   { year: 2020, text: 'Worked as junior developer' },
   { year: 2021, text: 'Became Successful Freelancer on Upwork' },
+  { year: 2022, text: 'Became Top Rated Freelancer on Upwork' },
 ];
