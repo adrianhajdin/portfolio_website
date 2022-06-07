@@ -33,8 +33,11 @@ export default class MyDocument extends Document {
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
         </Head>
-        <body>
-          <Main />
+        <body id='root'>
+          <div style={{overflow: 'hidden'}}>
+            <Main />
+          </div>
+          <div id="modal-root" />
           <NextScript />
         </body>
       </Html>

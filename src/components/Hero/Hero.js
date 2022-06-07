@@ -8,7 +8,7 @@ import { LeftSection } from './HeroStyles';
 
 
 const Hero = (props) => (
-  <>
+  <div data-aos="fade-right">
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
@@ -21,7 +21,7 @@ const Hero = (props) => (
         </SectionText>
       </LeftSection>
     </Section>
-  </>
+  </div>
 );
 
 export default Hero;
