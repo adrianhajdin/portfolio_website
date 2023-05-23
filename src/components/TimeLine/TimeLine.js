@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Experienced MERN Full Stack Developer with a passion for building dynamic and responsive web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, I have successfully delivered robust and scalable solutions across various industries. With a strong foundation in front-end and back-end development, I excel in creating seamless user experiences and implementing efficient server-side functionality. My expertise includes RESTful API integration, database management, and deployment using modern development tools and frameworks. I thrive in agile environments, collaborating with cross-functional teams to deliver high-quality products on time. Committed to continuous learning, I stay updated with the latest industry trends and best practices to deliver cutting-edge solutions. A results-driven problem solver, I am dedicated to delivering scalable and optimized code while maintaining a strong focus on user-centric design. Let's work together to bring your ideas to life.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
