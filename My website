@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidazimkhon Bahodirov's Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eafaf1; /* light green background */
+            color: #333;
+        }
+        header {
+            background-color: #6ab04c; /* green */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .soccer-bg {
+            background-image: url('https://example.com/soccer.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .basketball-bg {
+            background-image: url('https://example.com/basketball.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        footer {
+            background-color: #e67e22; /* orange */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .section-header {
+            color: #6ab04c; /* green */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Saidazimkhon Bahodirov</h1>
+        <p>Welcome to my personal page!</p>
+    </header>
+    <section class="soccer-bg">
+        <h2 class="section-header">About Me</h2>
+        <p>Hi, my name is Saidazimkhon Bahodirov. I enjoy playing soccer and basketball, with soccer being my favorite sport.</p>
+    </section>
+    <section class="basketball-bg">
+        <h2 class="section-header">Hobbies and Interests</h2>
+        <p>I love spending my free time playing soccer and basketball. These sports keep me active and are a lot of fun.</p>
+    </section>
+    <section>
+        <h2 class="section-header">Contact</h2>
+        <p>You can reach me at: <a href="mailto:saidazimkhon@example.com">saidazimkhon@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Saidazimkhon Bahodirov. All rights reserved.</p>
+    </footer>
+</body>
+</html>
