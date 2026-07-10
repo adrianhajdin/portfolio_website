@@ -4,15 +4,21 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "styled-components": "^5.3.0",
-    "styled-normalize": "^8.0.7",
-    "react-icons": "^4.2.0"
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "styled-components": "^6.4.3",
+    "styled-normalize": "^8.1.1",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
   }
 }

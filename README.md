@@ -1,17 +1,16 @@
-## Personal Portfolio
+## Gabriel's Personal Portfolio
 
-### [Live Site](https://jsmasterypro.com)
+Web developer, designer & instructor - built with Next.js, React and styled-components.
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+Featured projects include a School Management System, a Training & Learning Management System, an eCommerce platform, and client websites.
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+### Links
+- GitHub: [github.com/oghenenoghie](https://github.com/oghenenoghie)
+- Contact: ogenenoghie@gmail.com
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
+### Setup
 
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
-
-Setup:
-- run ```npm i && npm start```
-
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+```
+npm install
+npm run dev
+```

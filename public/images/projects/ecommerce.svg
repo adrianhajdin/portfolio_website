@@ -1,0 +1,23 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1624"/>
+      <stop offset="100%" stop-color="#14261F"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F46737"/>
+      <stop offset="100%" stop-color="#F7C948"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg2)"/>
+  <circle cx="90" cy="70" r="160" fill="#F7C948" opacity="0.08"/>
+  <circle cx="720" cy="390" r="150" fill="#F46737" opacity="0.08"/>
+  <g transform="translate(400,175)">
+    <path d="M-55,-30 L55,-30 L45,20 L-45,20 Z" fill="none" stroke="url(#accent2)" stroke-width="4"/>
+    <path d="M-55,-30 L-70,-30 L-60,-45" fill="none" stroke="url(#accent2)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-25" cy="35" r="8" fill="url(#accent2)"/>
+    <circle cx="25" cy="35" r="8" fill="url(#accent2)"/>
+  </g>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">eCommerce Platform</text>
+  <text x="400" y="325" font-family="Arial, sans-serif" font-size="17" fill="#F7C948" text-anchor="middle" letter-spacing="1">PYTHON  ·  DJANGO / FLASK  ·  REST API</text>
+</svg>

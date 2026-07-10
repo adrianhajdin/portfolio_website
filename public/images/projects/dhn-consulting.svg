@@ -1,0 +1,21 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1624"/>
+      <stop offset="100%" stop-color="#1B2333"/>
+    </linearGradient>
+    <linearGradient id="accent4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D0BB57"/>
+      <stop offset="100%" stop-color="#9CC9E3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg4)"/>
+  <circle cx="80" cy="380" r="150" fill="#D0BB57" opacity="0.08"/>
+  <circle cx="730" cy="70" r="160" fill="#9CC9E3" opacity="0.08"/>
+  <g transform="translate(400,190)" stroke="url(#accent4)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="-70,20 -30,-15 5,10 70,-45"/>
+    <polyline points="40,-45 70,-45 70,-15"/>
+  </g>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">DHN Consulting</text>
+  <text x="400" y="325" font-family="Arial, sans-serif" font-size="17" fill="#D0BB57" text-anchor="middle" letter-spacing="1">NEXT.JS  ·  TYPESCRIPT  ·  CLIENT PROJECT</text>
+</svg>
